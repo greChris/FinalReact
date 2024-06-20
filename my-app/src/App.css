@@ -1,0 +1,400 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.form-desc {
+	text-align: center;
+	padding: 2em 1em;
+}
+label {
+	font-family: 'Markazi', sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+}
+.title {
+	font-family: 'Markazi Text', serif;
+	font-size: 64px;
+	font-weight: 500;
+	line-height: 77px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #F4CE14;
+	margin: 0;
+}
+.subtitle {
+	font-family: 'Markazi Text', serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 48.01px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #FFFFFF;
+	margin: 0;
+}
+.desc {
+	color: #FFFFFF;
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.menu-title {
+	color: #000000;
+}
+.nav-item {
+	color: #040404;
+	font-weight: 600;
+	text-decoration: inherit;
+	font-family: 'Markazi', sans-serif;
+}
+.desc-subtitle {
+	color: #333333;
+}
+.item-name,
+
+.confirmed-title {
+
+	text-align: center;
+}
+.confirmed-subtitle {
+	color: #000000;
+	text-align: center;
+	max-width: 600px;
+	width: 50%;
+}
+.item-price,
+.reviewer-rating {
+	font-family: Karla;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #EE9972;
+}
+
+.item-desc,
+.review-text {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #495E57;
+	padding-bottom: 2em;
+}
+.delivery {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	bottom: 0.6em;
+
+}
+.testimonials-title {
+	font-family: 'Markazi Text', serif;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 43px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #333333;
+
+}
+.desc-title {
+	color: #000000;
+}
+
+.reviewer-name {
+	font-family: 'Markazi', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.desc-text {
+	font-family: Karla;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: justified;
+	color: #000000;
+}
+
+footer {
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+	background-color: #EDEFEE;
+}
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4em;
+	width: 100%;
+	height: 4em;
+	background-color: #EDEFEE;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="number"],
+select {
+	color: #333;
+	background-color: #f7f7f7;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 16px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	margin-inline: 0.5em;
+}
+
+
+.mobile-nav {
+	display: none;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+}
+
+.footer-item {
+	color: #040404;
+	font-weight: 400;
+	text-decoration: inherit;
+	font-size: 18px;
+}
+
+form {
+	background-color: #faecdc;
+	width: 65%;
+	margin-inline: auto;
+	text-align: center;
+	padding: 2em 1em;
+	margin-bottom: 1.5em;
+	border-radius: 20px;
+}
+
+.seperate {
+	display: block;
+	margin-top: 1em;
+}
+
+.seperate-child {
+	display: inline-block;
+}
+nav {
+	display: flex;
+	gap: 1em;
+  position: relative;
+}
+.submit {
+	margin-top: 1.5em;
+	padding: 1em 1.5em;
+	cursor: pointer;
+}
+
+
+.hero {
+	background-color: #495E57;
+}
+
+.img-wrapper {
+	right: 2em;
+	max-width: 250px;
+	max-height: 275px;
+	align-self: flex-end;
+	margin-bottom: -1em;
+	flex-basis: 1;
+}
+
+.hero-img {
+	width: 100%;
+}
+
+.hero-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+}
+
+.hero-desc,
+.restaurant-desc {
+	width: 34%;
+	padding: 2em;
+	flex-basis: 1;
+}
+
+.menu {
+	padding-block: 2em;
+}
+
+.menu-desc {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	margin-bottom: 2em;
+}
+
+.menu-img,
+.reviewer-img {
+	width: 100%;
+}
+
+.menu-img {
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+.cards,
+.testimonials {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.card,
+.testimonial {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding-bottom: 1em;
+}
+
+.card {
+	background-color: #EDEFEE;
+	border-radius: 16px;
+	position: relative;
+}
+
+.name-price,
+.name-rating {
+	display: flex;
+	justify-content: space-between;
+}
+
+.confirmed-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	padding-block: 2em;
+
+}
+
+.name-price,
+.item-desc,
+.delivery,
+.name-rating,
+.reviewer-name,
+.review-text {
+	padding-inline: 1em;
+}
+
+.restaurant-desc-parent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-block: 2em;
+	gap: 2em;
+}
+
+.desc-img {
+	width: 25%;
+}
+
+.testimonials-parent {
+	padding-block: 2em;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4em;
+	padding-block: 1em;
+	width: 100vw;
+	height: 10%;
+}
+
+.footer-content {
+	display: flex;
+	gap: 2em;
+}
+
+.footer-nav,
+.footer-contact,
+.footer-social {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-head {
+	font-weight: 600;
+	margin-bottom: 0.6em;
+}
+
+
+.btn,
+.submit {
+	background-color: #F4CE14;
+	border: none;
+	outline: none;
+	border-radius: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #040404;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	padding: -.7em;
+	cursor: pointer;
+}
+
+.reserve-btn {
+	margin-top: 1em;
+}
+
+.btn {
+	padding: 1em;
+}
+
+
